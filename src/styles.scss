@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-50: #eef9ff;
+  --primary-100: #dcf2ff;
+  --primary-200: #b2e8ff;
+  --primary-300: #6dd7ff;
+  --primary-400: #20c2ff;
+  --primary-500: #00abff;
+  --primary-600: #0088df;
+  --primary-700: #006cb4;
+  --primary-800: #005c95;
+  --primary-900: #004b7a;
+  --primary-950: #001524;
+
+  --secondary-50: #ecfffe;
+  --secondary-100: #d0fdfc;
+  --secondary-200: #a6fbfb;
+  --secondary-300: #69f5f7;
+  --secondary-400: #25e5eb;
+  --secondary-500: #09c9d1;
+  --secondary-600: #0aa1b0;
+  --secondary-700: #10808e;
+  --secondary-800: #15616d;
+  --secondary-900: #175662;
+  --secondary-950: #093943;
+
+  --accent-50: #fff7ed;
+  --accent-100: #ffecd1;
+  --accent-200: #fed8aa;
+  --accent-300: #fdbc74;
+  --accent-400: #fb953c;
+  --accent-500: #f97716;
+  --accent-600: #ea5b0c;
+  --accent-700: #c2440c;
+  --accent-800: #9a3612;
+  --accent-900: #7c2f12;
+  --accent-950: #431507;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right bottom, var(--primary-950), #021e2c, #032734, #04303c, var(--secondary-950));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
